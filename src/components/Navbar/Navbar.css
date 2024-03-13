@@ -1,0 +1,96 @@
+.NavbarItems {
+  background: linear-gradient(90deg, rgb(110, 94, 256) 0%, antiquewhite);
+  height: 80px;
+  /* display: flex; */
+  justify-content: space-between;
+  flex-direction: row;
+  /* align-items: center; */
+  font-size: 1.2rem;
+}
+.navbar-logo {
+  height: 13vh;
+  color: #fff;
+  margin-left: 30px;
+  margin-right: 35px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+.reactlogo {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-react {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+.menu-icon {
+  size: 20px;
+  color: black;
+  display: flex;
+  align-self: center;
+}
+.side-bar {
+  color: black;
+  background: linear-gradient(0deg, rgb(110, 94, 256) 0%, antiquewhite);
+  margin-top: -1px;
+  padding-top: 025px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+  width: 200px;
+}
+span {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+h4 {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.side-bar.active {
+  background: linear-gradient(0deg, rgb(110, 94, 256) 0%, antiquewhite);
+  left: 0;
+  opacity: 0.1;
+  transition: all 5s ease;
+  z-index: 1;
+}
+
+.icon {
+  height: 25px;
+  width: 50px;
+}
+.btn1 {
+  display: flex;
+  text-align: center;
+}
+.btne {
+  font-size: larger;
+  font-weight: bold;
+  color: aliceblue;
+  background-color: black;
+  width: 205px;
+  height: 50px;
+}
+
+.loginScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    height: 50vh;
+}
